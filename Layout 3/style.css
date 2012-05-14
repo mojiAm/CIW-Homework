@@ -1,0 +1,499 @@
+/*div{
+	outline:1px dashed red;
+}*/
+
+div.main{
+	width                :100%;
+	min-height           :100%;
+	background-image     :url("images/background.jpg");	
+	background-repeat    :no-repeat;
+	background-size      :cover;
+	background-position  :center;
+	background-attachment:fixed;
+	padding-top          :30px;	
+}
+
+div.container{
+	width:970px;
+}
+
+div.container .info{
+	padding         :7px 0;
+	margin-bottom   :8px;
+	background-color:#fd5;
+}
+
+div.container .info p{
+	font-size :12px;
+	text-align:center;
+}
+
+div.header{
+	margin-bottom   :9px;
+	padding         :20px 0;
+	background-color:#fff;
+}
+
+div.header .left{
+	margin-left:25px;
+}
+
+div.header .right{
+	
+}
+
+div.header .right > ul{
+	list-style-type:none;
+}
+
+div.header .right li{
+	float      :left;
+	border-left:3px solid transparent;
+	position   : relative;
+}
+
+div.header .right li:first-child{
+	border-left:none;
+}
+
+div.header .right a{
+	display           : block;	
+	padding           : 7px 15px;
+	text-decoration   :none;
+	font-family       :'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color             :#aaa;
+	text-transform    :capitalize;
+	font-size         :15px;
+	-webkit-transition:all 1s;
+	-ms-transition    :all 1s;
+	-moz-transition   :all 1s;
+	-o-transition     :all 1s;
+	transition        :all 1s;
+}
+
+div.header .right a:hover {
+	color: #222;
+}
+
+div.header .right li ul{
+	list-style-type :none;
+	width           :auto;
+	position        :absolute;
+	display         :none;
+	top             :30px;
+	left            :0;
+	z-index         :2;
+	background-color:#fff;
+}
+
+div.header .right li:hover ul{
+	display: block;
+	min-width:100%;
+}
+
+div.header .right li li{
+	float: none;
+	border:0 none;
+}
+
+div.header .right li li a{
+	white-space:nowrap;
+}
+
+div.header .text{
+	margin-top:20px;
+}
+
+div.header .text p{
+	font-family:Georgia, "Times New Roman";
+	font-size  :12px;
+	font-style :italic;
+	color      : #B2B2B6;
+}
+
+div.content{
+	margin-bottom   :14px;
+	background-color:#fff;
+	padding-right   :10px;
+	padding-left    :10px;
+}
+
+div.topcontent{
+	padding-top  :20px;
+	margin-bottom:10px;
+}
+
+div.topcontent .slide {
+
+}
+
+div.topcontent .slide .slideshow{
+	width   : 700px;
+	overflow: hidden;
+	position: relative;
+}
+
+div.topcontent .slide .slideshow .train{
+	width             :3000px;
+	position          : relative;
+	-webkit-transition:left 1s;
+	-moz-transition   :left 1s;
+	-o-transition     :left 1s;
+	-ms-transition    :left 1s;
+	transition        :left 1s;
+}
+
+div.topcontent .slide .slideshow .train > div{
+	float: left;
+}
+
+div.topcontent .slide .slideshow .train > div > img{
+	display: block;
+}
+
+div.topcontent .slide .slideshow ul.slidebtn{
+	list-style-type: none;
+	position       : absolute;
+	top            :330px;
+	left           :630px;
+}
+
+div.topcontent .slide .slideshow li{
+	float             : left;
+	width             :10px;
+	height            :10px;
+	background-color  : #ddd;
+	border-radius     : 50%;
+	margin-right      : 5px;
+	-webkit-transition:all 700ms;
+	-moz-transition   :all 700ms;
+	-ms-transition    :all 700ms;
+	-o-transition     :all 700ms;
+	transition        :all 700ms;
+}
+
+div.topcontent .slide .slideshow li:hover{
+	background-color  :#39D;
+	width             :8px;
+	height            :8px;
+	-webkit-transition:all 200ms;
+	-moz-transition   :all 200ms;
+	-ms-transition    :all 200ms;
+	-o-transition     :all 200ms;
+	transition        :all 200ms;
+}
+
+div.topcontent .right{
+	
+}
+
+div.topcontent .right p{
+	padding:20px 0;
+}
+
+div.topcontent .right a{
+	color             : #000;	
+	text-decoration   : none;
+	border-bottom     : 1px dashed #999;
+	-webkit-transition:all 700ms;
+	-moz-transition   :all 700ms;
+	-ms-transition    :all 700ms;
+	-o-transition     :all 700ms;
+	transition        :all 700ms;
+}
+
+div.topcontent .right a:hover{
+	text-decoration   :none;
+	background-color  :#fd5;
+	-webkit-transition:all 200ms;
+	-moz-transition   :all 200ms;
+	-ms-transition    :all 200ms;
+	-o-transition     :all 200ms;
+	transition        :all 200ms;
+}
+
+div.content .topline{
+	padding-top  :20px;
+	margin-bottom:10px;
+}
+
+div.content .topline .left{
+	min-height         :30px;
+	background-image   :url("images/twoline.gif");
+	background-repeat  : no-repeat;
+	background-position:left;
+}
+
+div.content .topline p{
+	margin-top:5px;
+	text-align: center;
+}
+
+div.content .topline .dots{
+	min-height         :30px;
+	background-image   :url("images/dots.gif");
+	background-repeat  :repeat-x;
+	background-position:center;
+}
+
+div.botcontent{
+	padding-top  :10px;
+	margin-bottom:40px;
+	position     :relative;
+}
+
+div.botcontent .projectview1 span{
+	position        :absolute;
+	background-color:#FC5;
+	display         :none;
+	width           :220px;
+	height          :140px;
+	top             :10px;
+	left            :0;
+	text-align      :center;
+}
+
+div.botcontent a.projectview1:hover span{
+	display:block;
+	opacity:0.5;
+}
+
+div.botcontent .projectview2 span{
+	position        : absolute;
+	background-color: #FC5;
+	display         : none;
+	width           :220px;
+	height          :140px;
+	top             :10px;
+	left            :240px;
+	text-align      :center;
+}
+
+div.botcontent a.projectview2:hover span{
+	display: block;
+	opacity:.5;
+}
+
+div.botcontent .projectview3 span{
+	position        : absolute;
+	background-color: #FC5;
+	display         : none;
+	width           :220px;
+	height          :140px;
+	top             :10px;
+	left            :480px;
+	text-align      :center;
+}
+
+div.botcontent a.projectview3:hover span{
+	display: block;
+	opacity:.5;
+}
+
+div.botcontent .projectview4 span{
+	position          : absolute;
+	background-color  : #FC5;
+	display           : none;
+	width             :220px;
+	height            :140px;
+	top               :10px;
+	left              :720px;
+	text-align        :center;
+	-webkit-transition:all 1000ms;
+	-moz-transition   :all 1000ms;
+	-ms-transition    :all 1000ms;
+	-o-transition     :all 1000ms;
+	transition        :all 1000ms;
+}
+
+div.botcontent a.projectview4:hover span{
+	display           : block;
+	opacity           :.5;
+	-webkit-transition:all 200ms;
+	-moz-transition   :all 200ms;
+	-ms-transition    :all 200ms;
+	-o-transition     :all 200ms;
+	transition        :all 200ms;
+}
+
+div.botcontent p.inlin{
+	display: inline;	
+}
+
+div.botcontent p{
+	
+	
+}
+
+div.botcontent a{
+	text-decoration:none;
+	color          :#444;
+}
+
+div.botcontent a:hover{
+	background-color:#fd5;
+}
+
+div.content .botline{
+	min-height         :30px;
+	background-image   :url("images/dots.gif");
+	background-repeat  : repeat-x;
+	background-position:center;
+	
+}
+
+div.footer{
+	padding-top     :15px;
+	padding-right   :10px;
+	padding-left    :10px;
+	background-color:#222;
+}
+
+div.footer .left .level1{
+	
+	margin-bottom:5px;
+}
+
+div.footer .level1 .left{
+	min-height:30px;
+	background-image   :url("images/twoline.gif");
+	background-repeat  : no-repeat;
+	background-position:left;
+}
+
+div.footer .level1 .dots{
+	min-height         :30px;
+	background-image   :url("images/dots.gif");
+	background-repeat  : repeat-x;
+	background-position:center;
+}
+
+div.footer .level1 p{
+	margin-top:5px;
+	text-align: center;
+}
+
+div.footer div.left .level2{
+	margin-bottom:5px;
+}
+
+div.footer div.left .icons{
+	width :60px;
+	height: 120px;
+}
+
+div.footer div.left a{
+	color          : #fff;
+	text-decoration: none;
+	border-bottom  :1px dashed #777;
+}
+
+div.footer div.left p{
+	color: #aaa;
+}
+
+div.footer div.left a:hover{
+	color: #fd5;
+}
+
+div.footer div.left .level3{
+	
+}
+
+div.footer div.right .level1{
+	margin-bottom:5px;
+}
+
+div.footer div.right .level2{
+	
+}
+
+div.footer div.mid .level1{
+	margin-bottom:5px;
+}
+
+div.footer div.mid .level2{
+	margin-bottom:15px;
+}
+
+div.footer a{
+	color             : #ddd;
+	text-decoration   : none;
+	-webkit-transition:all 700ms; 
+	-moz-transition   :all 700ms;
+	-ms-transition    :all 700ms;
+	-o-transition     :all 700ms;
+	transition        :all 700ms;
+}
+
+div.footer a:hover{
+	color             :#fd5;
+	-webkit-transition:all 200ms; 
+	-moz-transition   :all 200ms;
+	-ms-transition    :all 200ms;
+	-o-transition     :all 200ms;
+	transition        :all 200ms;
+}
+
+div.footer div.mid .level2 p{
+	margin-top:45px;
+}
+
+div.footer div.mid .level3{
+	margin-bottom:15px;
+}
+
+div.footer div.mid .level4{
+	
+}
+
+div.botfooter{
+	padding-top:20px;
+}
+
+div.botfooter .right{
+	width:350px;
+}
+
+div.botfooter .right ul{
+	list-style-type: none;
+}
+
+div.botfooter .right li{
+	float: left;
+}
+
+div.botfooter .right a{
+	padding        : 2px 5px;
+	text-decoration: none;
+	color          : #666;
+	text-transform : capitalize;
+}
+
+div.botfooter .right li:hover{
+	
+}
+
+div.botfooter .copyright{
+	
+}
+
+div.botfooter a{
+	text-decoration   : none;
+	font-size         : 15px;
+	color             : #555;
+	-webkit-transition:all 700ms;
+	-moz-transition   :all 700ms;
+	-ms-transition    :all 700ms;
+	-o-transition     :all 700ms;
+	transition        :all 700ms;
+}
+
+div.botfooter a:hover{
+	background-color  :#fd5;
+	-webkit-transition:all 200ms;
+	-moz-transition   :all 200ms;
+	-ms-transition    :all 200ms;
+	-o-transition     :all 200ms;
+	transition        :all 200ms;
+}
