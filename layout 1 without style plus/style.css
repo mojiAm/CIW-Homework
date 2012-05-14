@@ -1,0 +1,83 @@
+body{
+	padding-top:20px;
+}
+*{
+	padding:0;
+	margin:0;
+}
+
+div{
+	outline:1px dashed red;
+	padding-top:1px;
+}
+
+div.clear{
+	clear: both;
+	width:0;
+	height:0;
+	overflow: hidden;
+}
+
+div.container{
+	background-image:url("images/backguid.jpg");
+	background-repeat:no-repeat;
+	width:950px;
+	margin:0 auto;
+}
+
+div.left{
+	float: left;
+}
+
+div.right{
+	float: right;
+}
+
+div.header{
+	min-height:140px;
+}
+
+div.header div.left{
+	width:390px;
+	margin-top:30px;
+	min-height:75px;
+}
+
+div.header div.right{
+	width:390px;
+	margin-top:30px;
+	min-height:75px;
+}
+
+div.header div.picheader{
+	margin-left:400px;
+	margin-right:400px;
+	margin-top:2px;
+	min-height:130px;
+}
+
+div.content{
+	min-height:545px;
+}
+
+div.content div.right{
+	width:390px;
+	min-height:520px;
+}
+
+div.content div.textcontent{
+	margin-right:400px;
+	min-height:520px;
+}
+
+div.footer div.picfooter{
+	min-height:70px;
+}
+
+div.footer div.menufooter{
+	min-height:50px;
+}
+
+div.footer div.copyright{
+	min-height:50px;
+}
