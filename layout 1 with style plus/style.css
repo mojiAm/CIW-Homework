@@ -1,0 +1,55 @@
+div{
+	outline:1px dashed red;
+	padding-top:1px;
+}
+
+body{
+	padding-top:20px;
+}
+div.container{
+	background-image:url("images/backguid.jpg");
+	background-repeat:no-repeat;
+}
+
+div.header{
+	min-height:140px;
+}
+
+div.header div.left{
+	margin-top:30px;
+	min-height:75px;
+}
+
+div.header div.right{
+	margin-top:30px;
+	min-height:75px;
+}
+
+div.header div.pic{
+	margin-top:2px;
+	min-height:130px;
+}
+
+div.content{
+	min-height:545px;
+}
+
+div.content div.right{
+	min-height:520px;
+}
+
+div.content div.text{
+	min-height:520px;
+}
+
+div.footer div.picfooter{
+	min-height:70px;
+}
+
+div.footer div.menufooter{
+	min-height:50px;
+}
+
+div.footer div.copyright{
+	min-height:50px;
+}
