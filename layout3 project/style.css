@@ -2,6 +2,10 @@ div{
 	outline: 1px dashed red;
 }
 
+body{
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 div.backimage{
 	background-image   : url('images/backimage.jpg');
 	position           : fixed;
@@ -21,13 +25,14 @@ div.container-tooltip{
 
 div.tooltip{
 	background-color: #FFD62C;
-	padding         : 5px 3px;
-	font-size       : 14px;
+	padding         : 7px 5px;
+	font-size       : 12px;
 	margin-right    : 10px;
 }
 
 div.container-header{
-
+	padding         : 20px 0;
+	background-color: #fff;
 }
 
 div.container-header .logo{
@@ -42,6 +47,13 @@ div.container-header .logo h1{
 	text-indent      : 1000px;
 	background-size  : 100% 100%;
 	overflow         : hidden;
+	display          : inline-block;
+}
+
+div.container-header .logo span{
+	vertical-align: bottom;
+	margin-left   : 30px;
+	color         : #B2B2B6;
 }
 
 div.container-header .menu{
