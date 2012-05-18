@@ -2,10 +2,6 @@ div{
 	outline: 1px dashed red;
 }
 
-body{
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
 div.backimage{
 	background-image   : url('images/backimage.jpg');
 	position           : fixed;
@@ -28,15 +24,12 @@ div.tooltip{
 	padding         : 7px 5px;
 	font-size       : 12px;
 	margin-right    : 10px;
+	font-family     : 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 div.container-header{
 	padding         : 20px 0;
 	background-color: #fff;
-}
-
-div.container-header .logo{
-
 }
 
 div.container-header .logo h1{
@@ -54,8 +47,64 @@ div.container-header .logo span{
 	vertical-align: bottom;
 	margin-left   : 30px;
 	color         : #B2B2B6;
+	font-family   : Georgia, "Times New Roman", Times, serif;
+	font-size     : 12px;
+	font-style    : italic;
 }
 
-div.container-header .menu{
+div.container-header .menu > ul{
+	list-style-type: none;
+}
 
+div.container-header .menu li{
+	float      : left;
+	border-left: 3px solid transparent;
+	position   : relative;
+}
+
+div.container-header .menu > ul > li:first-child{
+	border-left: 0 none;
+}
+
+div.container-header .menu a{
+	display        : block;
+	padding        : 7px 5px;
+	text-decoration: none;
+	color          : #B2B2B6;
+	font-size      : 17px;
+	text-transform : capitalize;
+	text-align     : center;
+}
+
+div.container-header .menu ul li:hover > a{
+	color: #555;
+}
+
+div.container-header .menu li ul{
+	list-style-type : none;
+	position        : absolute;
+	display         : none;
+	min-width       : 100%;
+	top             : 30px;
+	left            : 0;
+	background-color: #fff;
+	z-index         : 2;
+}
+
+div.container-header .menu li li{
+	float      : none;
+	border-left: 0 none;
+	color      : #fff;
+}
+
+div.container-header .menu li:hover ul{
+	display: block;
+}
+
+div.container-header .menu li li a{
+	white-space: nowrap;
+}
+
+div.container-header .menu li li:hover{
+	color: #555;
 }
