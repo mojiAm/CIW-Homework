@@ -103,6 +103,7 @@ div.container-header .menu li:hover ul{
 
 div.container-header .menu li li a{
 	white-space: nowrap;
+	font-size:15px;
 }
 
 div.container-header .menu li li:hover{
