@@ -103,9 +103,69 @@ div.container-header .menu li:hover ul{
 
 div.container-header .menu li li a{
 	white-space: nowrap;
-	font-size:15px;
+	font-size  : 15px;
 }
 
 div.container-header .menu li li:hover{
 	color: #555;
+}
+
+div.container-baner{
+
+}
+
+div.container-baner .slide .slideshow{
+	width   : 710px;
+	overflow: hidden;
+	position: relative;
+}
+
+div.container-baner .slide .slideshow .trian{
+	width             : 3000px;
+	position          : relative;
+	-webkit-transition: left 1s;
+	-moz-transition   : left 1s;
+	-o-transition     : left 1s;
+	-ms-transition    : left 1s;
+	transition        : left 1s;
+}
+
+div.container-baner .slide .slideshow .trian > div{
+	float: left;
+}
+
+div.container-baner .slide .slideshow .trian > div > img{
+	display: block;
+}
+
+div.container-baner .slide .slideshow ul.slidebtn{
+	list-style-type: none;
+	position       : absolute;
+	top            : 330px;
+	left           : 630px;
+}
+
+div.container-baner .slide .slideshow li{
+	float             : left;
+	width             : 10px;
+	height            : 10px;
+	background-color  : #ddd;
+	border-radius     : 50%;
+	margin-right      : 5px;
+	-webkit-transition: all 700ms;
+	-moz-transition   : all 700ms;
+	-ms-transition    : all 700ms;
+	-o-transition     : all 700ms;
+	transition        : all 700ms;
+}
+
+div.container-baner .slide .slideshow li:hover{
+	background-color  : #39D;
+	width             : 8px;
+	height            : 8px;
+	-webkit-transition: all 200ms;
+	-moz-transition   : all 200ms;
+	-ms-transition    : all 200ms;
+	-o-transition     : all 200ms;
+	transition        : all 200ms;
 }
