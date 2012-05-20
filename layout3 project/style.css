@@ -15,8 +15,13 @@ div.backimage{
 	z-index            : -1;
 }
 
+div.container{
+	width:990px;
+}
+
 .container-tooltip{
 	padding: 30px 0 10px;
+
 }
 
 .tooltip{
@@ -28,8 +33,9 @@ div.backimage{
 }
 
 header.container-header{
-	padding         : 20px 0;
+	padding         : 20px 20px;
 	background-color: #fff;
+	margin-bottom:10px;
 }
 
 header.container-header .logo h1{
@@ -108,17 +114,18 @@ header.container-header .menu li li:hover{
 	color: #555;
 }
 
-div.container-baner{
-
+.container-baner{
+	padding: 20px 20px;
+	background-color: #fff;
 }
 
-div.container-baner .slide .slideshow{
-	width   : 710px;
+.container-baner .slide .slideshow{
+	width   : 700px;
 	overflow: hidden;
 	position: relative;
 }
 
-div.container-baner .slide .slideshow .trian{
+.container-baner .slide .slideshow .trian{
 	width             : 3000px;
 	position          : relative;
 	-webkit-transition: left 1s;
@@ -128,22 +135,22 @@ div.container-baner .slide .slideshow .trian{
 	transition        : left 1s;
 }
 
-div.container-baner .slide .slideshow .trian > div{
+.container-baner .slide .slideshow .trian > div{
 	float: left;
 }
 
-div.container-baner .slide .slideshow .trian > div > img{
+.container-baner .slide .slideshow .trian > div > img{
 	display: block;
 }
 
-div.container-baner .slide .slideshow ul.slidebtn{
+.container-baner .slide .slideshow ul.slidebtn{
 	list-style-type: none;
 	position       : absolute;
 	top            : 330px;
 	left           : 630px;
 }
 
-div.container-baner .slide .slideshow li{
+.container-baner .slide .slideshow li{
 	float             : left;
 	width             : 10px;
 	height            : 10px;
@@ -157,7 +164,7 @@ div.container-baner .slide .slideshow li{
 	transition        : all 700ms;
 }
 
-div.container-baner .slide .slideshow li:hover{
+.container-baner .slide .slideshow li:hover{
 	background-color  : #39D;
 	width             : 8px;
 	height            : 8px;
@@ -166,4 +173,10 @@ div.container-baner .slide .slideshow li:hover{
 	-ms-transition    : all 200ms;
 	-o-transition     : all 200ms;
 	transition        : all 200ms;
+}
+
+.container-baner .text p{
+	font: 13px/21px Georgia, "Times New Roman", Times, serif;
+	color:#555;
+	margin:30px 0;
 }
