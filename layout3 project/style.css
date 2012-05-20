@@ -1,4 +1,4 @@
-div{
+body *{
 	outline: 1px dashed red;
 }
 
@@ -15,11 +15,11 @@ div.backimage{
 	z-index            : -1;
 }
 
-div.container-tooltip{
+.container-tooltip{
 	padding: 30px 0 10px;
 }
 
-div.tooltip{
+.tooltip{
 	background-color: #FFD62C;
 	padding         : 7px 5px;
 	font-size       : 12px;
@@ -27,12 +27,12 @@ div.tooltip{
 	font-family     : 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-div.container-header{
+header.container-header{
 	padding         : 20px 0;
 	background-color: #fff;
 }
 
-div.container-header .logo h1{
+header.container-header .logo h1{
 	background-image : url('images/logo.png');
 	background-repeat: no-repeat;
 	width            : 144px;
@@ -40,33 +40,31 @@ div.container-header .logo h1{
 	text-indent      : 1000px;
 	background-size  : 100% 100%;
 	overflow         : hidden;
-	display          : inline-block;
 }
 
-div.container-header .logo span{
-	vertical-align: bottom;
-	margin-left   : 30px;
-	color         : #B2B2B6;
-	font-family   : Georgia, "Times New Roman", Times, serif;
-	font-size     : 12px;
-	font-style    : italic;
+header.container-header .logo h2{
+	color      : #B2B2B6;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size  : 12px;
+	font-style : italic;
+	margin-top : 25px;
 }
 
-div.container-header .menu > ul{
+header.container-header .menu > ul{
 	list-style-type: none;
 }
 
-div.container-header .menu li{
+header.container-header .menu li{
 	float      : left;
 	border-left: 3px solid transparent;
 	position   : relative;
 }
 
-div.container-header .menu > ul > li:first-child{
+header.container-header .menu > ul > li:first-child{
 	border-left: 0 none;
 }
 
-div.container-header .menu a{
+header.container-header .menu a{
 	display        : block;
 	padding        : 7px 5px;
 	text-decoration: none;
@@ -76,11 +74,11 @@ div.container-header .menu a{
 	text-align     : center;
 }
 
-div.container-header .menu ul li:hover > a{
+header.container-header .menu ul li:hover > a{
 	color: #555;
 }
 
-div.container-header .menu li ul{
+header.container-header .menu li ul{
 	list-style-type : none;
 	position        : absolute;
 	display         : none;
@@ -91,22 +89,22 @@ div.container-header .menu li ul{
 	z-index         : 2;
 }
 
-div.container-header .menu li li{
+header.container-header .menu li li{
 	float      : none;
 	border-left: 0 none;
 	color      : #fff;
 }
 
-div.container-header .menu li:hover ul{
+header.container-header .menu li:hover ul{
 	display: block;
 }
 
-div.container-header .menu li li a{
+header.container-header .menu li li a{
 	white-space: nowrap;
 	font-size  : 15px;
 }
 
-div.container-header .menu li li:hover{
+header.container-header .menu li li:hover{
 	color: #555;
 }
 
