@@ -16,6 +16,113 @@ div.backimage{
 }
 
 div.container{
-	width:990px;
+	width     : 990px;
+	min-height: 1250px;
+	background-image : url('images/backguid.jpg');
+	background-repeat: no-repeat;
+	background-size  : center;
 }
 
+/* -------- Tooltip -------- */
+.container-tooltip{
+	padding: 20px 0 10px;
+}
+
+.tooltip{
+	padding: 5px 3px;
+	background-color: #FFD62C;
+	margin-right    :20px;
+}
+/* -------- Header -------- */
+.container-header{
+	padding: 20px 20px;
+	min-height   : 38px;
+	margin-bottom: 10px;
+}
+
+.container-header .menu{
+	min-height: 10px;
+}
+
+.container-header .logo{
+	min-height: 10px;
+}
+/* -------- Banner -------- */
+.container-banner{
+	padding: 20px 20px;
+	min-height   : 550px;
+	margin-bottom: 10px;
+}
+
+.text{
+	min-height: 380px;
+}
+
+.slide{
+	min-height: 350px;
+	
+}
+
+.container-banner .topdot{
+	min-height: 10px;
+	margin-top: 40px;
+}
+
+.container-banner .allproject{
+
+}
+
+.allproject{
+	min-height: 210px;
+	margin-top: 20px;
+}
+
+.allproject li{	
+	min-height: 150px;
+}
+
+.bottomdot{
+	min-height: 10px;
+	margin-top: 30px;
+}
+/* -------- Widget -------- */
+.container-widget{
+	min-height: 300px;
+	padding: 20px 20px;
+}
+
+.container-widget .left{
+	min-height: 300px;
+}
+
+.container-widget .right{
+	min-height: 300px;
+}
+
+.container-widget .mid{
+	min-height: 300px;
+}
+
+.container-widget .level1{
+	min-height: 25px;
+}
+
+.container-widget .level2{
+	min-height: 150px;
+}
+
+.container-widget .level3{
+	min-height: 125px;
+}
+/* -------- Footer -------- */
+.container-footer{
+	padding: 10px 20px;
+}
+
+.container-footer .menu{
+	min-height: 40px;
+}
+
+.container-footer .copyright{
+	min-height: 40px;
+}
