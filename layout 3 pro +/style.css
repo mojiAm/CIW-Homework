@@ -16,11 +16,7 @@ div.backimage{
 }
 
 div.container{
-	width     : 990px;
-	min-height: 1250px;
-	background-image : url('images/backguid.jpg');
-	background-repeat: no-repeat;
-	background-size  : center;
+	width: 990px;
 }
 
 /* -------- Tooltip -------- */
@@ -88,7 +84,7 @@ div.container{
 /* -------- Widget -------- */
 .container-widget{
 	min-height: 300px;
-	padding: 20px 20px;
+	padding   : 20px 20px;
 }
 
 .container-widget .left{
