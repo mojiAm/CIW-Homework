@@ -29,26 +29,84 @@ div.container{
 	background-color: #FFD62C;
 	margin-right:20px;
 	font-family : "Times New Roman", Times, serif;
-	font-size: 12px;
+	font-size   : 12px;
 
 }
 /* -------- Header -------- */
 .container-header{
 	padding: 20px 20px;
-	min-height   : 38px;
-	margin-bottom: 10px;
+	margin-bottom   : 10px;
+	background-color: #fff;
 }
 
-.container-header .menu{
-	min-height: 10px;
+.container-header .menu ul{
+	list-style-type: none;
+}
+
+.container-header .menu li{
+	float      : left;
+	border-left: 3px solid transparent;
+	position   : relative;
+
+}
+
+.container-header .menu > ul > li:first-child{
+	border-left: 0 none;
+}
+
+.container-header .menu a{
+	display        : block;
+	padding        : 6px 12px;
+	text-decoration: none;
+	text-transform : capitalize;
+	font-family    : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size      : 13px;
+	color          : #B2B2B6;
+	font-weight    : bold;
+
+}
+
+.container-header .menu li ul{
+	position: absolute;
+	width   : auto;
+	background-color: #fff;
+	display: none;
+	z-index: 2;
+	top    : 25px;
+	left   : 0;
+}
+
+.container-header .menu li li{
+	float : none;
+	border:0 none;
+}
+
+.container-header .menu li li a{
+	white-space: nowrap;
+	display    : block;
+	padding    : 14px 10px;
+	font-size  : 12px;
+}
+
+.container-header .menu li:hover ul{
+	display  : block;
+	min-width: 100%;
+}
+
+.container-header .menu ul li:hover > a{
+	color: #555;
+}
+
+.container-header .menu li li:hover a{
+	color: #555;
 }
 
 .container-header .logo{
-	min-height: 10px;
+	
 }
 /* -------- Banner -------- */
 .container-banner{
-	padding: 20px 20px;
+	padding      : 20px 20px;
 	min-height   : 550px;
 	margin-bottom: 10px;
 }
