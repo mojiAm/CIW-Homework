@@ -21,13 +21,16 @@ div.container{
 
 /* -------- Tooltip -------- */
 .container-tooltip{
-	padding: 20px 0 10px;
+	padding: 30px 0 10px;
 }
 
 .tooltip{
-	padding: 5px 3px;
+	padding: 7px 5px;
 	background-color: #FFD62C;
-	margin-right    :20px;
+	margin-right:20px;
+	font-family : "Times New Roman", Times, serif;
+	font-size: 12px;
+
 }
 /* -------- Header -------- */
 .container-header{
